@@ -3,6 +3,7 @@ import Link from "next/link";
 const navItems = [
   ["Privacy", "/privacy"],
   ["Health data", "/consumer-health"],
+  ["AI notices", "/disclaimers"],
   ["Terms", "/terms"],
   ["Support", "/support"],
 ] as const;
@@ -42,6 +43,7 @@ export function SiteShell({
         <p>
           © 2026 Linnea · <Link href="/privacy">Privacy</Link> ·{" "}
           <Link href="/consumer-health">Consumer health data</Link> ·{" "}
+          <Link href="/disclaimers">AI notices</Link> ·{" "}
           <Link href="/terms">Terms</Link> · <Link href="/support">Support</Link>
         </p>
       </footer>

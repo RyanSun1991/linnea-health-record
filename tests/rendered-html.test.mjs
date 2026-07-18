@@ -26,6 +26,7 @@ for (const [path, title] of [
   ["/", "Your health record, with the terms in plain view."],
   ["/privacy/", "Privacy policy"],
   ["/consumer-health/", "Consumer health data policy"],
+  ["/disclaimers/", "AI notices"],
   ["/terms/", "Terms of service"],
   ["/support/", "Support"],
 ]) {
@@ -45,4 +46,16 @@ test("publishes the consumer-health notice from the home page", async () => {
   const html = await response.text();
   assert.match(html, /href="\/consumer-health"/i);
   assert.match(html, /Raw Apple Health samples stay on the device/i);
+});
+
+test("publishes the versioned AI notices from the home page", async () => {
+  const response = await render("/");
+  const html = await response.text();
+  assert.match(html, /href="\/disclaimers"/i);
+
+  const noticesResponse = await render("/disclaimers/");
+  const noticesHtml = await noticesResponse.text();
+  assert.match(noticesHtml, /v1\.0\.2026-04/);
+  assert.match(noticesHtml, /v2\.0\.2026-05/);
+  assert.match(noticesHtml, /not medical advice/i);
 });

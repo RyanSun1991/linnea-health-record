@@ -28,6 +28,12 @@ const documents = [
       "The agreement for using Linnea, including wellness limits, Apple subscriptions, and acceptable use.",
   },
   {
+    href: "/disclaimers",
+    title: "AI notices",
+    summary:
+      "The versioned notices shown with Linnea's AI-assisted plans, summaries, suggestions, and parsed entries.",
+  },
+  {
     href: "/support",
     title: "Support",
     summary:
