@@ -1,0 +1,8 @@
+{
+  "date": "2026-07-18",
+  "framework": "Next.js 16 app router via Vinext",
+  "font_stack": "Geist starter replaced by Fraunces + Newsreader",
+  "palette": "Starter hex tokens replaced by Garden OKLCH tokens",
+  "motion": "motion-cut",
+  "spacing": "4pt semantic scale"
+}

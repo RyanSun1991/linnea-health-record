@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    :root { --paper: oklch(96% 0.014 98); --ink: oklch(42% 0.12 145); --leaf: oklch(65% 0.08 145); }
+  </style>
+  <rect width="64" height="64" rx="12" fill="var(--paper)"/>
+  <path d="M18 13v38h29v-8H28V13z" fill="var(--ink)"/>
+  <path d="M37 13c8 3 12 9 12 18-8-1-14-6-16-14 1-2 2-3 4-4z" fill="var(--leaf)"/>
+</svg>
