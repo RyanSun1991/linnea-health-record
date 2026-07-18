@@ -24,10 +24,10 @@ async function render(path = "/") {
 
 for (const [path, title] of [
   ["/", "Your health record, with the terms in plain view."],
-  ["/privacy", "Privacy policy"],
-  ["/consumer-health", "Consumer health data policy"],
-  ["/terms", "Terms of service"],
-  ["/support", "Support"],
+  ["/privacy/", "Privacy policy"],
+  ["/consumer-health/", "Consumer health data policy"],
+  ["/terms/", "Terms of service"],
+  ["/support/", "Support"],
 ]) {
   test(`server-renders ${path}`, async () => {
     const response = await render(path);

@@ -2,6 +2,9 @@ import type { Metadata, Viewport } from "next";
 import { Fraunces, Newsreader } from "next/font/google";
 import "./globals.css";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://linnea-health-record.pages.dev/";
+const metadataBase = new URL(siteUrl.endsWith("/") ? siteUrl : `${siteUrl}/`);
+
 const fraunces = Fraunces({
   variable: "--font-fraunces",
   subsets: ["latin"],
@@ -15,7 +18,7 @@ const newsreader = Newsreader({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://linnea-health.pages.dev"),
+  metadataBase,
   title: {
     default: "Linnea · Privacy, terms, and support",
     template: "%s · Linnea",
@@ -25,8 +28,8 @@ export const metadata: Metadata = {
   applicationName: "Linnea",
   category: "health",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: new URL("favicon.svg", metadataBase),
+    shortcut: new URL("favicon.svg", metadataBase),
   },
   openGraph: {
     type: "website",
@@ -34,7 +37,7 @@ export const metadata: Metadata = {
     title: "Linnea · Privacy, terms, and support",
     description:
       "How Linnea handles health information, AI processing, account controls, and support.",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Linnea" }],
+    images: [{ url: new URL("og.png", metadataBase), width: 1200, height: 630, alt: "Linnea" }],
   },
 };
 
