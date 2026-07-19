@@ -40,12 +40,11 @@ export default function SupportPage() {
     <DocumentPage activePath="/support" title="Support" version="1.0">
       <p className="lede">
         For account, subscription, privacy, or technical help, email{" "}
-        <a href="mailto:info@nourishrx.com?subject=Linnea%20support">
-          info@nourishrx.com
+        <a href="mailto:mingjun.sun1991@gmail.com?subject=Linnea%20support">
+          mingjun.sun1991@gmail.com
         </a>
-        . This is the monitored launch-transition address; replies should include
-        the app version and a description of the screen or action, but no medical
-        details, passwords, or full health records.
+        . Replies should include the app version and a description of the screen
+        or action, but no medical details, passwords, or full health records.
       </p>
 
       <h2>Common requests</h2>

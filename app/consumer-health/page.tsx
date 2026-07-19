@@ -11,7 +11,7 @@ export default function ConsumerHealthPolicyPage() {
     <DocumentPage
       activePath="/consumer-health"
       title="Consumer health data policy"
-      version="1.0"
+      version="1.1"
     >
       <p className="lede">
         This notice supplements the Linnea Privacy Policy. It describes consumer
@@ -68,13 +68,18 @@ export default function ConsumerHealthPolicyPage() {
         also provides direct export and account-deletion controls.
       </p>
       <p>
-        Send a request to <a href="mailto:info@nourishrx.com">info@nourishrx.com</a>
+        Send a request to{" "}
+        <a href="mailto:mingjun.sun1991@gmail.com">mingjun.sun1991@gmail.com</a>
         with “Consumer Health Data Request” in the subject. We may request enough
         information to verify control of the account. If a request is denied, the
         response will explain why and how to appeal. Appeal by replying with
         “Privacy Appeal”; the appeal will be reviewed by a different decision
         maker where feasible. A Washington resident may contact the Washington
         Attorney General if an appeal remains unresolved.
+      </p>
+      <p>
+        The controller and designated Privacy Officer is <strong>MINGJUN SUN</strong>,
+        106 Mattingly Way, Ontario K4M 0C6, Canada.
       </p>
 
       <h2>Consent and changes</h2>

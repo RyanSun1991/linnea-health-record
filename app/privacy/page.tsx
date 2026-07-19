@@ -9,12 +9,13 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <DocumentPage activePath="/privacy" title="Privacy policy" version="1.0">
+    <DocumentPage activePath="/privacy" title="Privacy policy" version="1.1">
       <p className="lede">
         Linnea is a personal wellness companion. This policy explains what
         information the app handles, why it is needed, where it goes, and how
-        to export or delete it. “Linnea,” “we,” and “us” refer to the developer
-        identified as the seller on Linnea’s App Store product page.
+        to export or delete it. “Linnea,” “we,” and “us” refer to MINGJUN SUN,
+        the individual developer identified as the seller on Linnea’s App Store
+        product page.
       </p>
 
       <h2>Information we handle</h2>
@@ -144,11 +145,13 @@ export default function PrivacyPolicyPage() {
       <h2>Changes and contact</h2>
       <p>
         Material changes will be dated and presented in the app before they take
-        effect where notice is required. Privacy questions and rights requests
-        can be sent to <a href="mailto:info@nourishrx.com">info@nourishrx.com</a>
-        during the Linnea domain transition. The in-app support route reaches the
-        same monitored address. Washington consumer health requests follow the
-        separate <Link href="/consumer-health">Consumer Health Data Policy</Link>.
+        effect where notice is required. The controller and designated Privacy
+        Officer is <strong>MINGJUN SUN</strong>, 106 Mattingly Way, Ontario K4M
+        0C6, Canada. Privacy questions, complaints, and rights requests can be
+        sent to <a href="mailto:mingjun.sun1991@gmail.com">mingjun.sun1991@gmail.com</a>.
+        The in-app support route reaches the same monitored address. Washington
+        consumer health requests follow the separate{" "}
+        <Link href="/consumer-health">Consumer Health Data Policy</Link>.
       </p>
     </DocumentPage>
   );

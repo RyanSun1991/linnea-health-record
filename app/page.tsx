@@ -46,7 +46,7 @@ export default function Home() {
     <SiteShell activePath="/">
       <main className="home" id="main-content">
         <section className="home__opening" aria-labelledby="home-title">
-          <p className="document-meta">Published 18 July 2026 · Linnea</p>
+          <p className="document-meta">Updated 19 July 2026 · Linnea</p>
           <h1 id="home-title">Your health record, with the terms in plain view.</h1>
           <p className="home__lede">
             Linnea brings together information you enter, daily summaries from

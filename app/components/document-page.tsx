@@ -15,7 +15,7 @@ export function DocumentPage({
     <SiteShell activePath={activePath}>
       <main className="legal-document" id="main-content">
         <header className="legal-document__header">
-          <p className="document-meta">Version {version} · Effective 18 July 2026</p>
+          <p className="document-meta">Version {version} · Effective 19 July 2026</p>
           <h1>{title}</h1>
         </header>
         <article className="legal-prose">{children}</article>

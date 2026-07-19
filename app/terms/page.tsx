@@ -9,11 +9,12 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <DocumentPage activePath="/terms" title="Terms of service" version="1.0">
+    <DocumentPage activePath="/terms" title="Terms of service" version="1.1">
       <p className="lede">
-        These terms form an agreement between the user and the developer
-        identified as the seller on Linnea’s App Store product page. Creating an
-        account or using Linnea means accepting these terms and the{" "}
+        These terms form an agreement between the user and MINGJUN SUN, the
+        individual developer identified as the seller on Linnea’s App Store
+        product page. Creating an account or using Linnea means accepting these
+        terms and the{" "}
         <Link href="/privacy">Privacy Policy</Link>.
       </p>
 
@@ -98,12 +99,16 @@ export default function TermsPage() {
         liability or statutory rights that cannot lawfully be excluded or limited.
       </p>
 
-      <h2>Changes and contact</h2>
+      <h2>Governing law, changes, and contact</h2>
       <p>
-        Material changes will be dated and, where required, shown before they take
-        effect. Questions can be sent to{" "}
-        <a href="mailto:info@nourishrx.com">info@nourishrx.com</a> during the
-        Linnea domain transition.
+        These terms are governed by the laws of Ontario and the federal laws of
+        Canada applicable there, without overriding mandatory consumer protections
+        that apply where the user lives. Disputes may be brought before the courts
+        with lawful jurisdiction in Ontario unless applicable law permits or
+        requires another forum. Material changes will be dated and, where required,
+        shown before they take effect. Questions can be sent to{" "}
+        <a href="mailto:mingjun.sun1991@gmail.com">mingjun.sun1991@gmail.com</a> or
+        by mail to MINGJUN SUN, 106 Mattingly Way, Ontario K4M 0C6, Canada.
       </p>
     </DocumentPage>
   );
