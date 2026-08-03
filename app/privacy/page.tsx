@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <DocumentPage activePath="/privacy" title="Privacy policy" version="1.1">
+    <DocumentPage activePath="/privacy" title="Privacy policy" version="1.2">
       <p className="lede">
         Linnea is a personal wellness companion. This policy explains what
         information the app handles, why it is needed, where it goes, and how
@@ -82,6 +82,24 @@ export default function PrivacyPolicyPage() {
         their general models on Linnea API data by default. Provider security and
         abuse-monitoring logs may be retained for up to 30 days under their
         standard API terms, unless a shorter approved retention setting applies.
+      </p>
+      <p>
+        <strong>We ask before we send.</strong> The app explains in plain
+        language, inside the app, what an AI feature will send and which
+        provider receives it, and asks for your permission before the first such
+        request. Nothing is sent to an AI provider until you agree. You can
+        withdraw that permission at any time in Settings; the AI features then
+        stop sending, and the rest of Linnea — logging, your daily score,
+        trends, reminders, plan editing and export — keeps working.
+      </p>
+      <p>
+        <strong>Equal protection.</strong> We share personal information with an
+        AI provider only under written commercial terms that bind the provider
+        to confidentiality, to appropriate technical and organisational security
+        measures, to processing the data solely to return the result of your
+        request, and to protections materially equivalent to those described in
+        this policy. These providers act as processors on our instructions; they
+        are not permitted to use your information for their own purposes.
       </p>
 
       <h2>Processors and disclosures</h2>
